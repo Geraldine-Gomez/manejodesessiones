@@ -1,0 +1,361 @@
+*{
+	box-sizing: boreder-box;
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	float: center;
+	background-color: #48ABF7;
+	color: #fff;
+	height: 100px;
+}
+.lista{
+	margin-top: 70px;
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: #fff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #0361A9;
+    color: #fff;
+}
+.inputgenero{
+	width: 25%;
+	padding: .4rem;
+	margin: 0 25% 0% 25%;
+	border-radius: 8px;
+}
+.margen{
+	margin: 5% 10% 5% 10%;
+}
+.container{
+	background-color: #469BDC;
+}
+.registro{
+	background-color: #BACDF8;
+	display: block;
+	margin: 0% 0 5% 0;
+}
+#imagen{
+	display: block;
+	background-color: #949EF5;
+	padding: 0 1% 1% 1%;
+}
+#email{
+	width: 15%;
+	margin: 2% 5% 0 10%;
+
+}
+#register{
+	margin: 10% 0 0 8%;
+	margin-top: 8%;
+	font-size: 50px;
+	color: #fff;
+	display: inline;
+}
+figure{
+	width: auto;
+}
+#img{
+	width: 50%;
+}
+form{
+	margin-bottom: 20px;
+}
+.bienvenido{
+	background-color: #15318D;
+	display: inline;
+	color: #fff;
+	margin: 0% 0% 2% 0%;
+	margin-left: 5%;
+	display: inline;
+	padding: 12% 0 0% 0;
+}
+.gris{
+	color: #848484;
+	margin-top: 3%;
+}
+h1{
+	font-family: sans-serif, kristen-itc;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+}
+h2{
+	margin-top: 2%;
+	font-family: arial;
+	color: #959596;
+	font-size: 15px;
+	text-align: center;
+	font-weight: lighter;
+}
+p{
+	text-align: center;
+}
+#botonhead{
+	border-radius: 5px;
+	padding: 5px 30px;
+	color: #fff;
+	border: 0;
+	background-color: #6F6FD0;
+}
+.inputform{
+	display: block;
+	width: 50%;
+	padding: .4rem;
+	margin: 0 25% 2% 25%;
+	border-radius: 8px;
+}
+.inputdata{
+	display: block;
+	width: 50%;
+	padding: .4rem;
+	margin: 0 25% 2% 20%;
+	border-radius: 8px;
+}
+label{
+	margin-left: 20%;
+	display: block;
+	font-size: 18px;
+	color: #585858;
+	font-weight: bold;
+}
+#marginform{
+	margin-left: 10%;
+}
+#asunto{
+	margin-left: 0;
+	margin-right: 1%;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+}
+textarea{
+	width: 30%;
+	height: 150px;
+	margin-bottom: 200px;
+}
+#header{
+	background-color: #A9E2F3;
+	color: #536974;
+	height: 20%;
+	padding: 1% 15% 3% 15%;
+}
+.boton{
+	display: inline-block;
+	border-radius: 8px;
+	background-color: #27A5E4;
+	color: #fff;
+	padding: 10px 30px;
+	text-decoration: none;
+	font-size: 15px;
+	float: center;
+	border: 0;
+}
+#btn-margin{
+	margin-left: 30%;
+}
+#btn-marginlog{
+	margin-left: 40%;
+}
+#margin{
+	margin: 0 40% 0 40%;
+}
+.boton:hover{
+	background-color: #16719E;
+}
+#inbox{
+	margin-top: 10%;
+}
+#marginnuevo{
+	margin-bottom: 2%;
+}
+#nuevo{
+	border-radius: 8px;
+	display: inline;
+	background-color: #D2EEFA;
+	color: #053D54;
+	border: 0;
+	height: 5%;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+#sinmen{
+	background-color: #F5A9A9;
+	border: 0;
+	width: 100%;
+	height: 5%;
+	color: #680301;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.mensajes{
+	background-color: #F9F4D7;
+	color: #3C3503;
+	font-size: 20px;
+	width: 100%;
+	height: 3%;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1%;
+}
+h3{
+	font-size: 25px;
+	color: #053D54;
+	text-align: center;
+}
+.div-img{
+	margin: auto;
+	height: auto;
+	width: 30%;
+	padding: 0;
+}
+figure{
+	width: 150%;
+	margin: 0;
+	}
+.img-email{
+	width: 100%;
+	margin-left: 0;
+	margin-right: 2%;
+	padding: 0 10px;
+	}
+#read{
+	text-align: justify;
+	font-size: 15px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px){
+	.inputform{
+		margin: 0 15% 2% 15%;
+		width: 70%;
+	}
+	.boton{
+	display: inline-block;
+	padding: 10px 30px;
+	text-decoration: none;
+	margin: 0;
+	}
+	#btn-margin{
+	margin-left: 15%;
+	}
+	#btn-marginlog{
+	margin-left: 25%;
+	}
+	.bienvenido{
+		padding: 8% 0 0% 0;
+	}
+	.bienve{
+		font-size: 25px;
+		margin-left: 0;
+	}
+	h2{
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 260px) and (max-width: 599px){
+	.inputform{
+		margin: 0 10% 2% 10%;
+		width: 80%;
+		padding: .2rem;
+	}
+	h2{
+		font-size: 13px;
+	}
+	.mensajes{
+		font-size: 13px;
+		width: 100%;
+		height: 2%;
+		margin-top: 1%;
+	}
+	#nuevo{
+		height: 5%;
+		font-size: 20px;
+	}
+	#asunto{
+		font-size: 18px;
+	}
+	li a{
+		padding: 12px 10px;
+	}
+	.container{
+		padding: 0;
+		margin: 0;
+	}
+	.div-img{
+		width: 10px;
+		height: 10px;
+		padding: 0;
+	}
+	figure{
+		width: auto;
+		height: auto;
+		margin: 0;
+	}
+	.bienve{
+		font-size: 12px;
+		margin-left: 0;
+	}
+	.bienvenido{
+		padding: 6% 0 0% 0;
+	}
+	.inputgenero{
+		width: 50%;
+	}
+	.div-img{
+		margin: 0;
+		height: auto;
+		width: 40%;
+		padding: 0;
+	}
+	.img-email{
+		width: 110%;
+	}
+	.gris{
+		font-size: 25px;
+	}
+	#register{
+		font-size: 25px;
+	}
+	#btn-margin{
+		margin-left: 8%;
+	}
+	#btn-marginlog{
+		margin-left: 25%;
+	}
+	.boton{
+		display: inline-block;
+		padding: 8px 20px;
+		text-decoration: none;
+		margin: 1% 0% 1% 0%;
+	}
+	.btn-margin{
+		padding: 6px 20px;
+		margin: 2% 10% 2% 10%;
+	}
+	.img-email{
+		width: 125%;
+		margin-left: 0;
+	}
+	.col-4{
+		width: 100%;
+	}
+	.menu{
+		height: auto;
+	}
+}
